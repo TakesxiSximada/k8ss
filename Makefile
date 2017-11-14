@@ -16,7 +16,15 @@ stop:
 ctl:
 	supervisorctl -c supervisord.conf
 
+.PHONY: admin
+admin:
+	minikube dashboard
 
 .PHONY: redis
 redis:
 	cd redis && make apply
+
+
+.PHONY: mysql
+mysql:
+	cd mysql && make apply
