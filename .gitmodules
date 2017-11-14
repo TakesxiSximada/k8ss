@@ -1,0 +1,3 @@
+[submodule "working"]
+	path = working
+	url = git@bitbucket.org:takesxi_sximada/working.git
