@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: redis.sximada
+spec:
+  rules:
+    - host: redis.sximada
+      http:
+        paths:
+        - path: /
+          backend:
+            serviceName: redis
+            servicePort: 6379

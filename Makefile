@@ -15,3 +15,8 @@ stop:
 .PHONY: ctl
 ctl:
 	supervisorctl -c supervisord.conf
+
+
+.PHONY: redis
+redis:
+	cd redis && make apply
