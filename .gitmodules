@@ -1,3 +1,6 @@
 [submodule "working"]
 	path = working
 	url = git@bitbucket.org:takesxi_sximada/working.git
+[submodule "pleroma/src"]
+	path = pleroma/src
+	url = https://git.pleroma.social/pleroma/pleroma.git
