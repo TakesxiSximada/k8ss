@@ -32,6 +32,14 @@ admin:
 
 	minikube dashboard
 
+.PHONY: apply
+apply:
+	@# Apply middlewares
+
+	make redis
+	make mysql
+
+
 .PHONY: redis
 redis:
 	@# Apply redis
