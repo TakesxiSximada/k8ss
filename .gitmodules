@@ -4,3 +4,6 @@
 [submodule "pleroma/src"]
 	path = pleroma/src
 	url = https://git.pleroma.social/pleroma/pleroma.git
+[submodule "modern-django-example/src"]
+	path = modern-django-example/src
+	url = git@github.com:TakesxiSximada/modern-django-example.git
