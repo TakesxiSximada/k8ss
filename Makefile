@@ -4,10 +4,18 @@
 deps:
 	@# Install dependencies.
 
-	pip install -r ./supervisor-master.zip
-	brew install haproxy
-	go get github.com/moriyoshi/devproxy
-	go get github.com/TakesxiSximada/unmake
+	-pip install ./supervisor-master.zip
+	-brew install haproxy
+	-go get github.com/moriyoshi/devproxy
+	-go get github.com/TakesxiSximada/unmake
+
+
+.PHONY: local
+local:
+	@# Start minikube.
+
+	minikube start
+
 
 .PHONY: start
 start:
@@ -56,11 +64,9 @@ mysql:
 	cd mysql && make apply
 
 
-.PHONY: kube-local
-kube-local:
-	@# Start minikube.
-
-	minikube start
+.PHONY: refresh
+refresh:
+	cd TIL && make refresh
 
 
 .PHONY: help
