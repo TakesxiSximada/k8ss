@@ -7,3 +7,6 @@
 [submodule "modern-django-example/src"]
 	path = modern-django-example/src
 	url = git@github.com:TakesxiSximada/modern-django-example.git
+[submodule "TIL/src"]
+	path = TIL/src
+	url = git@github.com:TakesxiSximada/TIL.git
