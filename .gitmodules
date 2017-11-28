@@ -10,3 +10,6 @@
 [submodule "TIL/src"]
 	path = TIL/src
 	url = git@github.com:TakesxiSximada/TIL.git
+[submodule "presentations/src"]
+	path = presentations/src
+	url = git@github.com:TakesxiSximada/presentations.git
