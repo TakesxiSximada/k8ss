@@ -13,3 +13,6 @@
 [submodule "presentations/src"]
 	path = presentations/src
 	url = git@github.com:TakesxiSximada/presentations.git
+[submodule "aws-static-files/src"]
+	path = aws-static-files/src
+	url = git@github.com:TakesxiSximada/aws-static-files.git
